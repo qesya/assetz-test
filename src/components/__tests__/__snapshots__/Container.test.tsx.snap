@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<List /> should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bczRLJ goEvZo"
+    label="name"
+    value="1"
+  />
+</DocumentFragment>
+`;
