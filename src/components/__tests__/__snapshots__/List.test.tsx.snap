@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<List /> should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bczRLJ goEvZo"
+  >
+    <div
+      class="sc-gsnTZi frhqIM"
+    >
+      <div
+        class="sc-dkzDqf wUhxQ"
+      >
+        investment account
+      </div>
+      <div
+        class="sc-dkzDqf wUhxQ"
+      >
+        total balance
+      </div>
+    </div>
+    <div
+      class="sc-gsnTZi kPMvlg"
+    >
+      <div
+        class="sc-dkzDqf wUhxQ"
+      >
+        ABC
+      </div>
+      <div
+        class="sc-dkzDqf wUhxQ"
+      >
+        10
+      </div>
+    </div>
+    <div
+      class="sc-gsnTZi kPMvlg"
+    >
+      <div
+        class="sc-dkzDqf wUhxQ"
+      >
+        DEF
+      </div>
+      <div
+        class="sc-dkzDqf wUhxQ"
+      >
+        15
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

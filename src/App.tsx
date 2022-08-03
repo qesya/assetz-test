@@ -1,9 +1,9 @@
-import { ChangeEvent, useCallback, useMemo, useState } from 'react';
+import React, { ChangeEvent, useCallback, useMemo, useState } from 'react';
 import { createGlobalStyle } from 'styled-components';
 
-import Container from './components/container';
-import Input from './components/input';
-import List, { SingleData } from './components/list';
+import Container from './components/Container';
+import Input from './components/Input';
+import List, { SingleData } from './components/List';
 
 import holdingData from './data/holdings.json';
 import ratesData from './data/rates.json';
@@ -24,7 +24,7 @@ function App() {
 
 	const handleChangePromotion = useCallback(
 		(e: ChangeEvent<HTMLInputElement>) =>
-			setPromotion(e.target.value),
+			setPromotion(e.target.value),                             
 		[setPromotion]
 	);
 
@@ -103,8 +103,6 @@ function App() {
 			};
 		}, []);
 	}, [promotion]);
-
-	console.log(data);
 
 	return (
 		<Container>
